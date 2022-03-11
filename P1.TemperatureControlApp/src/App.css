@@ -1,0 +1,73 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+.container{
+    width:100%;
+    height:100%;
+}
+.TemperatureControl{
+    color: white;
+    font-size: 20px;
+    height: 400px;
+    width: 300px;
+    background: #3a7b9e;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgb(0 0 0 / 75%);
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.tempdesplay{
+  display: flex;
+  border-radius: 50px;
+  color: white;
+  height: 220px;;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:40px;
+  border: 3px solid white;
+  transition:background 0.5s;
+}
+button {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: #ffffff;
+  background: rgb(105, 104, 104);
+  border: 2px #ffffff solid;
+}
+#btn2{ 
+  margin-left: 28px;
+  margin-right: 2px;
+}
+button:hover {
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+.cold{ 
+  background-color:rgb(56, 56, 245)
+}
+.hot{ background-color:red}
